@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,11 +11,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\QuizzController;
+ 
+Route::get('/test', [QuizzController::class, 'test']);
 
-Route::get('/home', function () {
-    return view('welcome');
-});
+// Auth::routes();
 
-Route::get('/test', function () {
-    return view('test');
-});
+//  Route::get('/', 'QuizzController@test')->name('test');

@@ -20,7 +20,7 @@ class CreateQuizzTable extends Migration
             $table->string('false1');
             $table->string('false2');
             $table->string('false3');
-            $table->string('description');
+            $table->varchar('description');
         });
     }
 
