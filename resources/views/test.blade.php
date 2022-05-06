@@ -12,7 +12,7 @@
 
 <body class="container">
 
-    <img class="w-25 mx-auto d-block m-5" src="{{URL::asset('/asset/Logo_LDA_Round_black.png')}}" alt="">
+    <img class=" w-25 mx-auto d-block m-5" src="{{URL::asset('/asset/Logo_LDA_Round_black.png')}}" alt="">
     <h1 class="text-center m-5">Quiz #LaDalleAngevine</h1>   
     <div class="container-fluid">
     <div class="w-auto">
@@ -30,16 +30,15 @@
             </div>
         </div>
     </div>
-    <button type="button" class="float-end btn btn-dark start-23 mt-3">#Suivant</button>
+    <button type="button" class="float-end btn btn-dark start-23 mt-3" onClick="window.location.reload();">#Suivant</button>
 
 
 </body>
     <div class="container mt-4 w-75 ">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi autem sit quae enim similique recusandae dicta, ab adipisci cumque, cum accusantium veritatis quis ipsa ducimus! Veniam quidem laborum vero magni?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, nostrum error! Delectus beatae harum ipsam facilis necessitatibus? Nam ipsum, ratione est tempore quo repellendus fugit, id repellat cum ducimus voluptas?
-
         </p>
-    </div>
+    </div> 
 </body>
 
 </html>
